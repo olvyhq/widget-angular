@@ -2,6 +2,7 @@ import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'widget-angular',
+  standalone: true,
   template: `
   <div>
   <ng-content></ng-content>

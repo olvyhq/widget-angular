@@ -4,10 +4,10 @@ import { WidgetAngularComponent } from './widget-angular.component';
 
 
 @NgModule({
-  declarations: [
-    WidgetAngularComponent
+  declarations: [  
   ],
   imports: [
+    WidgetAngularComponent
   ],
   exports: [
     WidgetAngularComponent
