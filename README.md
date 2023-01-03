@@ -2,7 +2,7 @@
 
 ## Project setup
 
-npm install @olvyhq/widget-angular@0.0.2
+npm install @olvyhq/widget-angular
 
 ### Getting Started
 ```

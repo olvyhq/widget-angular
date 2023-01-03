@@ -13,6 +13,7 @@ import { Component,Input } from '@angular/core';
 })
 export class WidgetAngularComponent {
   @Input() config:any;
+  OlvyUtils:any;
   ngOnInit() {
     try {
       if (document) {
@@ -24,6 +25,8 @@ export class WidgetAngularComponent {
         window.addEventListener("load", () => {
           //@ts-ignore
           window.OlvyConfig = this.config
+           //@ts-ignore
+           this.OlvyUtils=window.OlvyUtils
         });
       }
     } catch (e) {
