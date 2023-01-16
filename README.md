@@ -38,21 +38,23 @@ import { WidgetAngularComponent } from '@olvyhq/widget-angular';
 #### How to use 
 
 ```javascript
-  <widget-angular [config]="<Configuration>">
-    <div id="<Target-Element-Id>"></div>
-  </widget-angular>
+  <olvy-widget [config]="<Configuration>">
+    <div "<css-selector>" ></div>
+  </olvy-widget>
 
-//Replace <Target-Element-Id> with your target element id and <Configuration> with your configuration
+//Replace "<css-selector>" with the selector you configured on Olvy for target element and <Configuration> with your configuration
 
 ```
 
 #### Example
 
 ```javascript
-<widget-angular [config]="appConfig">
+<olvy-widget [config]="appConfig">
     <div id="olvy-whats-new">Announcement Widget</div>
-  </widget-angular>
+  </olvy-widget>
+  //here appConfig has the configuration and #olvy-whats-new is the target element
 ```
+
 #### Configuration
 ```javascript
 appConfig={
@@ -207,5 +209,5 @@ OlvyUtils.createFeedback(workspaceAlias,params)
 ## Tests
 
 ```bash
-  npm run test
+ npx jest
 ```

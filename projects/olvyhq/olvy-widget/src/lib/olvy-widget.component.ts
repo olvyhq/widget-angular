@@ -2,7 +2,7 @@ import { Component,Input } from '@angular/core';
 //@ts-ignore
 
 @Component({
-  selector: 'widget-angular',
+  selector: 'olvy-widget',
   standalone: true,
   template: `
   <div>
@@ -12,7 +12,7 @@ import { Component,Input } from '@angular/core';
   styles: [
   ]
 })
-export class WidgetAngularComponent {
+export class OlvyWidgetComponent {
   @Input() config:any;
   OlvyUtils:any;
   ngOnInit() {

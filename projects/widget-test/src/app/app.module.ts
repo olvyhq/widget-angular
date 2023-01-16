@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { WidgetAngularComponent } from '@olvyhq/widget-angular';
+import { OlvyWidgetComponent } from '../../../olvyhq/olvy-widget/src/lib/olvy-widget.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
-    WidgetAngularComponent
+    OlvyWidgetComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
