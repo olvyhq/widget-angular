@@ -52,7 +52,6 @@ import { WidgetAngularComponent } from '@olvyhq/widget-angular';
 <widget-angular [config]="appConfig">
     <div id="olvy-whats-new">Announcement Widget</div>
   </widget-angular>
-    </OlvyWidget>
 ```
 #### Configuration
 ```javascript

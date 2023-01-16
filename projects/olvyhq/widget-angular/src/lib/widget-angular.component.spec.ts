@@ -22,8 +22,8 @@ describe("olvy widget components",()=>{
     component=fixture.componentInstance;
     fixture.detectChanges()
   })
-  it("should create", () => {
-    expect(1).toEqual(1);
-  //expect(component).toBeTruthy();
-});
+  it('should create the app', () => {
+    const app = fixture.componentInstance;
+    expect(app).toBeTruthy();
+  });
 })
