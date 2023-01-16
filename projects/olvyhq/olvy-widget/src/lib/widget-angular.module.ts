@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { OlvyWidgetComponent } from './olvy-widget.component';
+import { OlvyWidgetComponent } from './widget-angular.component';
 @NgModule({
   declarations: [  
   ],
