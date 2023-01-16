@@ -1,4 +1,5 @@
 import { Component,Input } from '@angular/core';
+//@ts-ignore
 
 @Component({
   selector: 'widget-angular',
@@ -27,6 +28,7 @@ export class WidgetAngularComponent {
           window.OlvyConfig = this.config
            //@ts-ignore
            this.OlvyUtils=window.OlvyUtils
+           
         });
       }
     } catch (e) {
@@ -34,3 +36,4 @@ export class WidgetAngularComponent {
     }
   }
 }
+
