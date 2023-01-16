@@ -1,6 +1,11 @@
+const baseConfig = require('../../jest.config');
+
 module.exports = {
+  ...baseConfig,
+  moduleNameMapper: {
+    '@core/(.*)': '<rootDir>/src/app/core/$1',
+  },
   preset: 'jest-preset-angular',
-  globalSetup: 'jest-preset-angular/global-setup',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/projects/widget-test/tsconfig.spec.json',

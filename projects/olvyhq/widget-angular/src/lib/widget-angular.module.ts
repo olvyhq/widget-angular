@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
-import { WidgetAngularComponent } from './widget-angular.component';
-
-
-
+import { OlvyWidgetComponent } from './widget-angular.component';
 @NgModule({
   declarations: [  
   ],
   imports: [
-    WidgetAngularComponent
+    OlvyWidgetComponent
   ],
   exports: [
-    WidgetAngularComponent
+    OlvyWidgetComponent
   ]
 })
-export class WidgetAngularModule { }
+export class OlvyWidgetModule { }
