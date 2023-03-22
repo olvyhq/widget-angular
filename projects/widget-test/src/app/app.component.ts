@@ -18,6 +18,7 @@ export class AppComponent {
     this.olvyUtils=await OlvyWidgetComponent.getOlvyUtils()
     this.olvyUtils.showWidget("olvysdktest","stupefied_buck_CMnyh")
   }
+ 
 
   
  
