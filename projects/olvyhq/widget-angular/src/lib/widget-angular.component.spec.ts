@@ -4,7 +4,7 @@
 import 'zone.js';
 import 'zone.js/testing';
 import { ComponentFixture, TestBed } from "@angular/core/testing"
-import { OlvyWidgetComponent } from "./olvy-widget.component"
+import { OlvyWidgetComponent } from "./widget-angular.component"
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from "@angular/platform-browser-dynamic/testing";
 
 TestBed.initTestEnvironment(BrowserDynamicTestingModule, platformBrowserDynamicTesting());
