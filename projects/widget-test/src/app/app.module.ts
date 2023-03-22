@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { OlvyWidgetComponent } from '../../../olvyhq/olvy-widget/src/lib/olvy-widget.component';
+import { OlvyWidgetComponent  } from '../../../olvyhq/widget-angular/src/lib/widget-angular.component';
 
 @NgModule({
   declarations: [
@@ -11,9 +11,11 @@ import { OlvyWidgetComponent } from '../../../olvyhq/olvy-widget/src/lib/olvy-wi
   ],
   imports: [
     BrowserModule,
-    OlvyWidgetComponent
+    OlvyWidgetComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}

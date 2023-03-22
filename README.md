@@ -71,6 +71,11 @@ appConfig={
 
 ## Methods
 
+#### Fetch olvy Utils
+
+```javascript
+let OlvyUtils = await OlvyWidgetComponent.getOlvyUtils()
+```
 #### To show widget
 
 ```javascript
