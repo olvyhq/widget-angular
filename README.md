@@ -20,7 +20,7 @@ Install @olvyhq/widget-angular with npm
     
 ## Usage/Examples
 
-In main.js
+
 
 ```javascript
 import { WidgetAngularComponent } from '@olvyhq/widget-angular';

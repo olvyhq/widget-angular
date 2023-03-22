@@ -20,7 +20,7 @@ Install @olvyhq/widget-angular with npm
     
 ## Usage/Examples
 
-In main.js
+
 
 ```javascript
 import { WidgetAngularComponent } from '@olvyhq/widget-angular';
@@ -71,6 +71,11 @@ appConfig={
 
 ## Methods
 
+#### Fetch olvy Utils
+
+```javascript
+let OlvyUtils = await OlvyWidgetComponent.getOlvyUtils()
+```
 #### To show widget
 
 ```javascript
