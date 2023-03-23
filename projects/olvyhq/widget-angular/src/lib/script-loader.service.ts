@@ -10,7 +10,9 @@ export class ScriptLoaderService {
 
   constructor() {
     // Create a Promise that resolves when the script is loaded
+    
     this.scriptLoadedPromise = new Promise<boolean>((resolve, reject) => {
+      if (!window.OlvyUtils) {
       const script = document.createElement('script');
       script.src = 'https://app.olvy.co/scriptV2.js';
       script.onload = () => {
@@ -22,6 +24,7 @@ export class ScriptLoaderService {
         reject(new Error('Failed to load script.'));
       };
       document.body.appendChild(script);
+    }
     });
   }
 
