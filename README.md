@@ -16,8 +16,10 @@ Install @olvyhq/widget-angular with npm
 ```bash
   npm install @olvyhq/widget-angular
 ```
+Check the [NPM package](https://www.npmjs.com/package/@olvyhq/widget-angular)
 
-    
+---
+
 ## Usage/Examples
 
 
