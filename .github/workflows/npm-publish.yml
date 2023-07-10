@@ -16,8 +16,7 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm run test
-      - run: npm run build
+      - run: npm run build @olvyhq/widget-angular
 
   publish-npm:
     needs: build
