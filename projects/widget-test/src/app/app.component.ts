@@ -8,7 +8,8 @@ import { OlvyWidgetComponent  } from 'projects/olvyhq/widget-angular/src/public-
 export class AppComponent {
   title = 'widget-test';
   appConfig={
-    workspaceAlias: "olvysdktest"
+    workspaceAlias: "olvysdktest",
+    widgetId: ""
   }
   olvyUtils:any
   
